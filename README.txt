@@ -1,3 +1,6 @@
+Bomberman / indie studio :
+==========================
+
 to compile bomberman on linux use :
 - create a "build" folder
 - go to this folder
