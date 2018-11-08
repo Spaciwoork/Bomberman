@@ -1,0 +1,18 @@
+Charger le .ms3d normalement avec un getMesh
+
+Dans un IAnimatedMeshSceneNode (ex : sydney)
+
+Pour les textures :
+
+sydney->getMaterial(ID).TextureLayer[0].Texture = driver->getTexture("/path/png/file")
+
+Balls.png -> ID = 0
+Armor3.png -> ID = 1
+Armor2.png -> ID = 2
+Armor1.png -> ID = 3
+Armor4.png -> ID = 4
+Face.png -> ID = 5
+Back.png -> ID = 6
+
+Pour stop l'animation
+-> sydney->setAnimationSpeed( value en seconde)
